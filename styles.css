@@ -38,7 +38,24 @@ nav li:not(:last-child) {
 #groupedlinks a:not(:last-child) {
     margin-right: 5pt;
 }
+.main-content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;       
+}
 
+
+img {
+    max-width: 40%; 
+    height: auto;
+    margin-top: 40pt;
+    margin-left: 20px;    
+}
+
+.homeName{
+    font-size: 40;
+}
 
 nav a {
     align-items: left;
@@ -96,8 +113,8 @@ button:active {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 20px 0;
     position: absolute;
