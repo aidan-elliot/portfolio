@@ -98,7 +98,7 @@ h1:nth-of-type(2) {
 p {
     text-align: left;
     max-width: 600px;
-    margin: 20px auto;
+    margin-top: 25px auto;
     font-size: 1.1em;
 }
 #Project1{
