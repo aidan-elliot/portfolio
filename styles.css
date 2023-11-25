@@ -39,7 +39,6 @@ nav li:not(:last-child) {
 }
 .main-content {
     display: flex;
-    align-items: start;
     justify-content: space-between;
     padding: 20px;       
 }
@@ -48,7 +47,7 @@ nav li:not(:last-child) {
 img {
     max-width: 40%; 
     min-width: 20%;
-    height: auto;
+    height: 10%;
     margin-top: 40pt;
     margin-left: 40pt;  
     margin-right: 50pt;  
@@ -76,9 +75,9 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 .text-content{
+    align-items: start;
     margin-left: 85pt;
-    max-width: 50%;
-    min-width: 300pt; 
+    min-width: 40vw;
 }
 
 h1 {
@@ -101,8 +100,20 @@ p, .list {
     font-size: 1.1em;
 }
 #yahtzee-project{
-    margin-bottom: 6vh;
+    
 }
+.yahtzee-image {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: start;
+}
+
+.yahtzee-image img {
+    max-width: 70%;
+    height: auto;
+}
+
 #Project1{
     margin-top: 15pt;
 }
@@ -137,11 +148,12 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-left: 20pt;
-    position: bottom;
     width: 100%;
     bottom: 0;
+    left: 0;
 
-}@media (max-width: 850px) {
+
+}@media (max-width: 950px) {
     
     nav ul {
         flex-direction: column;
