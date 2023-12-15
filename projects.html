@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Header Section: Contains navigation links -->
     <header>
@@ -30,60 +32,163 @@
         <div class="text-content">
             <h1 class="homeName">PROJECTS & ACCOMPLISHMENTS</h1><br>
 
-            <!-- Yahtzee Project Section -->
-            <div id="yahtzee-project">
-
-                <!-- Project Title and Overview -->
-                <h2>Yahtzee Game Project</h2>
+            <!-- Hospital Waitlist Web App Project Section -->
+            <div id="hospital-waitlist-project">
+                <h2>Hospital Waitlist Web App</h2>
                 <p><strong>Overview</strong><br>
-                   A web-based version of the classic Yahtzee dice game, this project highlights my capabilities in both front-end and back-end web development, featuring a React-driven frontend and a Node.js/Express backend.</p><br>
+                    A strong web application to streamline hospital waitlist management. Utilizing the MERN stack
+                    (MongoDB, Express.js, React, Node.js), this app streamlines patient registration, triage, and queue
+                    management.</p><br>
+                <p><strong>Technical Stack</strong><br>
+                    <ul class="list">
+                        <li><strong>MongoDB:</strong> Flexible NoSQL database for efficient data storage and retrieval.
+                        </li>
+                        <li><strong>Express.js:</strong> Robust backend framework running on Node.js for server-side
+                            logic.</li>
+                        <li><strong>React:</strong> Cutting-edge frontend library for building interactive user
+                            interfaces.</li>
+                        <li><strong>Node.js:</strong> Scalable server-side JavaScript environment.</li>
+                    </ul>
+                </p><br>
                 <p><strong>Project Description</strong><br>
-                   In this project, players interact with a digital version of Yahtzee, rolling dice, holding onto them, and scoring points. Key aspects of my work include:<br>
-                   <ul class="list">
-                    <li><strong>React Development:</strong>Crafting a user-friendly interface with React, utilizing modern features like functional components, hooks, and context.</li>
-                    <li><strong>Node.js/Express Backend:</strong>Implementing the server-side logic using Node.js and Express to manage the game state and handle game operations, showcasing my back-end development skills.</li>
-                    <li><strong>CSS for Styling:</strong>Using CSS to design a visually appealing and responsive game interface.</li>
-                   </ul><br>
+                    This application features a user-friendly interface for patient registration, where patients receive
+                    a unique login code. Admins have access to a dynamic dashboard that displays a prioritized patient
+                    queue. The prioritization is based on a custom algorithm considering injury severity, pain level,
+                    and waiting time.<br>
+                    <ul class="list">
+                        <li><strong>Dynamic Priority Scoring:</strong> Innovative algorithm that updates in real-time,
+                            enhancing patient triage efficiency.</li>
+                        <li><strong>Real-Time Data Management:</strong> Seamless integration with MongoDB ensures
+                            immediate updates and accurate queue management.</li>
+                        <li><strong>Responsive Web Design:</strong> The app is optimized for performance and usability
+                            across various devices and screen sizes.</li>
+                    </ul>
+                </p><br>
 
                 <!-- Technical Highlights -->
                 <p><strong>Technical Highlights</strong><br>
                     <ul class="list">
-                        <li><strong>Node.js Server-Side Programming:</strong> The backbone of the game, written in Node.js, handles crucial aspects like game state management, dice rolling logic, and score calculation. This demonstrates my ability to program complex server-side components and manage game mechanics effectively.</li>
-                        <li><strong>API Design and Interaction:</strong> Using Express.js to create RESTful APIs, facilitating seamless communication between the frontend and backend.</li>
-                        <li><strong>Game State Management:</strong> The server stores and updates the game state, including dice values, scores, and roll counts, ensuring consistent gameplay and rule enforcement.</li>
-                        <li><strong>Installation and Environment Setup:</strong> Illustrates my competence in setting up and managing a full-stack development environment, using npm for package management and Git for version control.</li>
-                        <li><strong>Responsive Web Design:</strong> Ensuring the game is accessible and enjoyable across various devices, reflecting my skills in responsive design.</li>
-                    </ul><br>
-                
-                    <!-- Learning Outcome -->
-                    <p><strong>Challenges and Learning Outcomes</strong>
-                    <ul class="list">
-                        <li><strong>Complex Server Logic:</strong> Building the server-side logic with Node.js was challenging, especially in managing the game state and implementing the game rules, which enhanced my problem-solving and backend development skills.</li>
-                        <li><strong>Integrating Frontend with Backend:</strong> Seamlessly connecting the React frontend with the Node.js backend taught me valuable lessons in full-stack development and API integration.</li>
-                        <li><strong>User-Centered Design:</strong> Focusing on creating an intuitive and engaging user interface improved my understanding of UI/UX design principles.</li>
+                        <li><strong>Full-Stack MERN Development:</strong> Leveraging the MERN stack for a comprehensive
+                            and integrated development experience.</li>
+                        <li><strong>RESTful API Design:</strong> Custom API endpoints designed with Express.js,
+                            facilitating efficient front-to-back communication.</li>
+                        <li><strong>Frontend UI/UX:</strong> Emphasis on user experience with React, showcasing a clean,
+                            intuitive interface.</li>
                     </ul>
-                
+                </p><br>
+
+                <!-- Learning Outcome -->
+                <p><strong>Challenges and Learning Outcomes</strong><br>
+                    <ul class="list">
+                        <li><strong>Complex Backend Logic:</strong> Developing an algorithm for patient prioritization
+                            that responds to real-time data.</li>
+                        <li><strong>REST API Development:</strong> Deepening my skills in creating and utilizing RESTful
+                            APIs with Express.js for seamless front-to-back communication.</li>
+                        <li><strong>State Management in React:</strong> Efficiently managing application state in a
+                            dynamic, user-driven environment.</li>
+                        <li><strong>Error Handling and Debugging:</strong> Developing robust error handling strategies
+                            and debugging skills, essential for maintaining a reliable application.</li>
+                    </ul>
+                </p>
+
                 <!-- Link button to repository -->
-                <button class="btn" onclick="window.location.href = 'https://github.com/aidan-elliot/yatzy.git'; "target="_blank" >Find on GitHub</button>
+                <button class="btn"
+                    onclick="window.location.href = 'https://github.com/aidan-elliot/emergency_waitlist.git'; "
+                    target="_blank">Find on GitHub</button>
             </div>
+            
+
             <div>
 
-                <!-- Second project from first year -->
-                <h2 id="smsprotitle">SMSPro, a Java Application</h2>
+                <!-- Yahtzee Project Section -->
+                <div id="yahtzee-project">
+
+                    <!-- Project Title and Overview -->
+                    <h2>Yahtzee Game Project</h2>
+                    <p><strong>Overview</strong><br>
+                        A web-based version of the classic Yahtzee dice game, this project highlights my capabilities in
+                        both front-end and back-end web development, featuring a React-driven frontend and a
+                        Node.js/Express backend.</p><br>
+                    <p><strong>Project Description</strong><br>
+                        In this project, players interact with a digital version of Yahtzee, rolling dice, holding onto
+                        them, and scoring points. Key aspects of my work include:<br>
+                        <ul class="list">
+                            <li><strong>React Development:</strong>Crafting a user-friendly interface with React,
+                                utilizing modern features like functional components, hooks, and context.</li>
+                            <li><strong>Node.js/Express Backend:</strong>Implementing the server-side logic using
+                                Node.js and Express to manage the game state and handle game operations, showcasing my
+                                back-end development skills.</li>
+                            <li><strong>CSS for Styling:</strong>Using CSS to design a visually appealing and responsive
+                                game interface.</li>
+                        </ul><br>
+
+                        <!-- Technical Highlights -->
+                        <p><strong>Technical Highlights</strong><br>
+                            <ul class="list">
+                                <li><strong>Node.js Server-Side Programming:</strong> The backbone of the game, written
+                                    in Node.js, handles crucial aspects like game state management, dice rolling logic,
+                                    and score calculation. This demonstrates my ability to program complex server-side
+                                    components and manage game mechanics effectively.</li>
+                                <li><strong>API Design and Interaction:</strong> Using Express.js to create RESTful
+                                    APIs, facilitating seamless communication between the frontend and backend.</li>
+                                <li><strong>Game State Management:</strong> The server stores and updates the game
+                                    state, including dice values, scores, and roll counts, ensuring consistent gameplay
+                                    and rule enforcement.</li>
+                                <li><strong>Installation and Environment Setup:</strong> Illustrates my competence in
+                                    setting up and managing a full-stack development environment, using npm for package
+                                    management and Git for version control.</li>
+                                <li><strong>Responsive Web Design:</strong> Ensuring the game is accessible and
+                                    enjoyable across various devices, reflecting my skills in responsive design.</li>
+                            </ul><br>
+
+                            <!-- Learning Outcome -->
+                            <p><strong>Challenges and Learning Outcomes</strong>
+                                <ul class="list">
+                                    <li><strong>Complex Server Logic:</strong> Building the server-side logic with
+                                        Node.js was challenging, especially in managing the game state and implementing
+                                        the game rules, which enhanced my problem-solving and backend development
+                                        skills.</li>
+                                    <li><strong>Integrating Frontend with Backend:</strong> Seamlessly connecting the
+                                        React frontend with the Node.js backend taught me valuable lessons in full-stack
+                                        development and API integration.</li>
+                                    <li><strong>User-Centered Design:</strong> Focusing on creating an intuitive and
+                                        engaging user interface improved my understanding of UI/UX design principles.
+                                    </li>
+                                </ul>
+
+                                <!-- Link button to repository -->
+                                <button class="btn"
+                                    onclick="window.location.href = 'https://github.com/aidan-elliot/yatzy.git'; "
+                                    target="_blank">Find on GitHub</button>
+                </div>
+                <div>
+
+                    <!-- Second project from first year -->
+                    <h2 id="smsprotitle">SMSPro, a Java Application</h2>
                     <p>A simple and effective way to send sms messages from a machine cabable
-                        of runnnig Java applications. SMSPro allows users to enter a phone number and a message
-                        they would like to send. The application utilizes the Twilio API to process messages.</p>
-                        <button class="btn" onclick="window.location.href = 'https://github.com/aidan-elliot/SMS-sender.git'; "target="_blank" >Find on GitHub</button>
-                    </div>
+                        of runnnig Java applications. SMSPro allows users to enter a phone number and a
+                        message
+                        they would like to send. The application utilizes the Twilio API to process
+                        messages.</p>
+                    <button class="btn"
+                        onclick="window.location.href = 'https://github.com/aidan-elliot/SMS-sender.git'; "
+                        target="_blank">Find on GitHub</button>
+                </div>
+            </div>
         </div>
 
         <!-- Screenshot of yahtzee user interface -->
-        <div class="yahtzee-image">
+        <!-- Screenshot Section for Hospital Waitlist Web App -->
+        <div class="project-image">
+            <img src="Screenshot 2023-12-15 022444.png" alt="Hospital Waitlist App Screenshot">
+            <img src="Screenshot 2023-12-15 022506.png" alt="Hospital Waitlist App Dashboard Screenshot">
             <img src="Screenshot 2023-11-24 211835.png" alt="Yahtzee Game Screenshot">
         </div>
+    </div>
     </div>
     <footer>
         <p>© 2023 Aidan Elliot</p>
     </footer>
 </body>
+
 </html>
